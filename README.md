@@ -5,24 +5,5 @@ Is a tool to do 1k pops per sec with out doing nothing Popcat.click
 
 
 
-1) Open https://popcat.click
-2) Open console (F12)
-3) Insert code & run
-
-
-
-var event = new KeyboardEvent('keydown', {
-	key: 'g',
-	ctrlKey: true
-});
-
-setInterval(function(){
-	for (i = 0; i < 3000; i++) {
-		document.dispatchEvent(event);
-	}
-}, 0);
-
-
-
 By eetu#9953
 
